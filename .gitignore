@@ -1,0 +1,45 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore virtual environment directories
+venv/
+ENV/
+env/
+.venv/
+
+# Ignore Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+lib/
+
+# Ignore pip related files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+
+# Ignore PyInstaller files
+*.spec
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore local configuration files
+*.local
+*.env
+
+# Ignore other common files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
